@@ -1,0 +1,20 @@
+using System;
+
+namespace donguler
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            string[] kurslar = new string[] { "Yazilimci Gelistirme Yetistirme Kampi",
+                "Programlamaya baslangic icin temel kurs","Java","python"  };
+
+            foreach (var kurs in kurslar)
+            {
+                Console.WriteLine(kurs);
+            }
+            Console.WriteLine("sayfa sonu");
+        }
+    }
+}
